@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WhatIF Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+  </script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WhatIF Store</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.sakurayuri.top/">首页</a></li>
+        <li><a href="https://yao.sakurayuri.top/">瑶的博客</a></li>
+        <li><a href="https://endercat.eu.org/">樱的博客</a></li>
+        <li class="active"><a href="https://store.sakurayuri.top">小卖部</a></li>
+        <li><a href="https://claude.sakurayuri.top/">FuClaude</a></li>
+        <li><a href="https://madohomu.sakurayuri.top/">MadoHomu</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">WhatIF Air 订阅</div>
+        <stripe-buy-button
+  buy-button-id="buy_btn_1Pd7JfJxLxJWAhC5XgIdRXSh"
+  publishable-key="pk_test_51PKYVpJxLxJWAhC5aoSmX1sK1jQABIGZsdfGm6QV6mGRYaHAgc317OeWYTWNQSMLNaIviMvjcXFaNX56H6cVlheM008YAIKCrt"
+>
+</stripe-buy-button>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-info">
+        <div class="panel-heading">WhatIF Team Air 订阅</div>
+        <stripe-buy-button
+  buy-button-id="buy_btn_1Pd7JfJxLxJWAhC5XgIdRXSh"
+  publishable-key="pk_test_51PKYVpJxLxJWAhC5aoSmX1sK1jQABIGZsdfGm6QV6mGRYaHAgc317OeWYTWNQSMLNaIviMvjcXFaNX56H6cVlheM008YAIKCrt"
+>
+</stripe-buy-button>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">WhatIF Pro 订阅</div>
+        <stripe-buy-button
+  buy-button-id="buy_btn_1Pd7JfJxLxJWAhC5XgIdRXSh"
+  publishable-key="pk_test_51PKYVpJxLxJWAhC5aoSmX1sK1jQABIGZsdfGm6QV6mGRYaHAgc317OeWYTWNQSMLNaIviMvjcXFaNX56H6cVlheM008YAIKCrt"
+>
+</stripe-buy-button>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Windows Madoka Plus</div>
+        <stripe-buy-button
+  buy-button-id="buy_btn_1Pd7JfJxLxJWAhC5XgIdRXSh"
+  publishable-key="pk_test_51PKYVpJxLxJWAhC5aoSmX1sK1jQABIGZsdfGm6QV6mGRYaHAgc317OeWYTWNQSMLNaIviMvjcXFaNX56H6cVlheM008YAIKCrt"
+>
+</stripe-buy-button>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">红烧丘比</div>
+        <stripe-buy-button
+  buy-button-id="buy_btn_1Pd7JfJxLxJWAhC5XgIdRXSh"
+  publishable-key="pk_test_51PKYVpJxLxJWAhC5aoSmX1sK1jQABIGZsdfGm6QV6mGRYaHAgc317OeWYTWNQSMLNaIviMvjcXFaNX56H6cVlheM008YAIKCrt"
+>
+</stripe-buy-button>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">南瓜小焰，只为小圆体制打造</div>
+        <stripe-buy-button
+  buy-button-id="buy_btn_1Pd7JfJxLxJWAhC5XgIdRXSh"
+  publishable-key="pk_test_51PKYVpJxLxJWAhC5aoSmX1sK1jQABIGZsdfGm6QV6mGRYaHAgc317OeWYTWNQSMLNaIviMvjcXFaNX56H6cVlheM008YAIKCrt"
+>
+</stripe-buy-button>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>© WhatIF Studio 2024</p>  
+  <p>瑶ICP证20240702号</p>  
+</footer>
+
+</body>
+</html>
